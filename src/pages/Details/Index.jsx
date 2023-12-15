@@ -7,10 +7,10 @@ export function Index() {
     return (
         <div className="main-div">
             <span>
-                <p>Clique no botão: </p>
+                <p>Click: </p>
             </span>
             <button onClick={() => setState(count += 1)}>
-                Contador: {count}
+                Counter: {count}
             </button>
         </div>
     )
