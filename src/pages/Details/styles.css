@@ -1,0 +1,13 @@
+div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+div span {
+    border-color: red;
+}
+
+div span:hover {
+    background-color: rgb(127, 165, 247);
+}
