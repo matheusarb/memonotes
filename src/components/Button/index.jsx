@@ -1,9 +1,9 @@
 import { Container } from "./style";
 
-export function Button() {
+export function Button({ title }) {
     return (
         <Container type="button">
-            Meu Botão
+            {title}
         </Container>
     )
 };
