@@ -1,8 +1,8 @@
 import { Container } from "./style";
 
-export default function Button() {
+export function Button() {
     return (
-        <Container>
+        <Container type="button">
             Meu Botão
         </Container>
     )
